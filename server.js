@@ -195,7 +195,7 @@ let subscribeToPlatformEvents = () => {
           "Duplicate Payment Detected"
         );
       } else {
-        createPlatformEvent(muxJobId, "MUX_Inbound_Job_Status__e", "Completed");
+        createPlatformEvent(muxJobId, "MUX_Inbound__e", "Completed");
       }
     });
   });
